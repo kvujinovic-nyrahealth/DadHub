@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02A043BE2B206EA50000E042 /* DadHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A043BD2B206EA50000E042 /* DadHubApp.swift */; };
+		02A043C02B206EA50000E042 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A043BF2B206EA50000E042 /* ContentView.swift */; };
+		02A043C22B206EA50000E042 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A043C12B206EA50000E042 /* Item.swift */; };
+		02A043C42B206EA60000E042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A043C32B206EA60000E042 /* Assets.xcassets */; };
+		02A043C72B206EA60000E042 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A043C62B206EA60000E042 /* Preview Assets.xcassets */; };
+		02A043D12B206EA60000E042 /* DadHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A043D02B206EA60000E042 /* DadHubTests.swift */; };
+		02A043DB2B206EA60000E042 /* DadHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A043DA2B206EA60000E042 /* DadHubUITests.swift */; };
+		02A043DD2B206EA60000E042 /* DadHubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A043DC2B206EA60000E042 /* DadHubUITestsLaunchTests.swift */; };
+		02A043EC2B20AFCB0000E042 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A043EB2B20AFCB0000E042 /* HomeView.swift */; };
+		02A043EF2B20B3590000E042 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 02A043EE2B20B3590000E042 /* Networking */; };
+		02A043F22B20CB160000E042 /* Jokes in Frameworks */ = {isa = PBXBuildFile; productRef = 02A043F12B20CB160000E042 /* Jokes */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02A043CD2B206EA60000E042 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02A043B22B206EA50000E042 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02A043B92B206EA50000E042;
+			remoteInfo = DadHub;
+		};
+		02A043D72B206EA60000E042 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02A043B22B206EA50000E042 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02A043B92B206EA50000E042;
+			remoteInfo = DadHub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A043BA2B206EA50000E042 /* DadHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DadHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02A043BD2B206EA50000E042 /* DadHubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadHubApp.swift; sourceTree = "<group>"; };
+		02A043BF2B206EA50000E042 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02A043C12B206EA50000E042 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		02A043C32B206EA60000E042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02A043C62B206EA60000E042 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02A043CC2B206EA60000E042 /* DadHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DadHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02A043D02B206EA60000E042 /* DadHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadHubTests.swift; sourceTree = "<group>"; };
+		02A043D62B206EA60000E042 /* DadHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DadHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02A043DA2B206EA60000E042 /* DadHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadHubUITests.swift; sourceTree = "<group>"; };
+		02A043DC2B206EA60000E042 /* DadHubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadHubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		02A043EA2B206FF70000E042 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Networking; path = ../Networking; sourceTree = "<group>"; };
+		02A043EB2B20AFCB0000E042 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		02A043F02B20C8FD0000E042 /* Jokes */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Jokes; path = ../Jokes; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02A043B72B206EA50000E042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A043EF2B20B3590000E042 /* Networking in Frameworks */,
+				02A043F22B20CB160000E042 /* Jokes in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02A043C92B206EA60000E042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02A043D32B206EA60000E042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02A043B12B206EA50000E042 = {
+			isa = PBXGroup;
+			children = (
+				02A043F02B20C8FD0000E042 /* Jokes */,
+				02A043EA2B206FF70000E042 /* Networking */,
+				02A043BC2B206EA50000E042 /* DadHub */,
+				02A043CF2B206EA60000E042 /* DadHubTests */,
+				02A043D92B206EA60000E042 /* DadHubUITests */,
+				02A043BB2B206EA50000E042 /* Products */,
+				02A043ED2B20B3590000E042 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		02A043BB2B206EA50000E042 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02A043BA2B206EA50000E042 /* DadHub.app */,
+				02A043CC2B206EA60000E042 /* DadHubTests.xctest */,
+				02A043D62B206EA60000E042 /* DadHubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02A043BC2B206EA50000E042 /* DadHub */ = {
+			isa = PBXGroup;
+			children = (
+				02A043BD2B206EA50000E042 /* DadHubApp.swift */,
+				02A043BF2B206EA50000E042 /* ContentView.swift */,
+				02A043C12B206EA50000E042 /* Item.swift */,
+				02A043C32B206EA60000E042 /* Assets.xcassets */,
+				02A043C52B206EA60000E042 /* Preview Content */,
+				02A043EB2B20AFCB0000E042 /* HomeView.swift */,
+			);
+			path = DadHub;
+			sourceTree = "<group>";
+		};
+		02A043C52B206EA60000E042 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02A043C62B206EA60000E042 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02A043CF2B206EA60000E042 /* DadHubTests */ = {
+			isa = PBXGroup;
+			children = (
+				02A043D02B206EA60000E042 /* DadHubTests.swift */,
+			);
+			path = DadHubTests;
+			sourceTree = "<group>";
+		};
+		02A043D92B206EA60000E042 /* DadHubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02A043DA2B206EA60000E042 /* DadHubUITests.swift */,
+				02A043DC2B206EA60000E042 /* DadHubUITestsLaunchTests.swift */,
+			);
+			path = DadHubUITests;
+			sourceTree = "<group>";
+		};
+		02A043ED2B20B3590000E042 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02A043B92B206EA50000E042 /* DadHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02A043E02B206EA60000E042 /* Build configuration list for PBXNativeTarget "DadHub" */;
+			buildPhases = (
+				02A043B62B206EA50000E042 /* Sources */,
+				02A043B72B206EA50000E042 /* Frameworks */,
+				02A043B82B206EA50000E042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DadHub;
+			packageProductDependencies = (
+				02A043EE2B20B3590000E042 /* Networking */,
+				02A043F12B20CB160000E042 /* Jokes */,
+			);
+			productName = DadHub;
+			productReference = 02A043BA2B206EA50000E042 /* DadHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02A043CB2B206EA60000E042 /* DadHubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02A043E32B206EA60000E042 /* Build configuration list for PBXNativeTarget "DadHubTests" */;
+			buildPhases = (
+				02A043C82B206EA60000E042 /* Sources */,
+				02A043C92B206EA60000E042 /* Frameworks */,
+				02A043CA2B206EA60000E042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02A043CE2B206EA60000E042 /* PBXTargetDependency */,
+			);
+			name = DadHubTests;
+			productName = DadHubTests;
+			productReference = 02A043CC2B206EA60000E042 /* DadHubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02A043D52B206EA60000E042 /* DadHubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02A043E62B206EA60000E042 /* Build configuration list for PBXNativeTarget "DadHubUITests" */;
+			buildPhases = (
+				02A043D22B206EA60000E042 /* Sources */,
+				02A043D32B206EA60000E042 /* Frameworks */,
+				02A043D42B206EA60000E042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02A043D82B206EA60000E042 /* PBXTargetDependency */,
+			);
+			name = DadHubUITests;
+			productName = DadHubUITests;
+			productReference = 02A043D62B206EA60000E042 /* DadHubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02A043B22B206EA50000E042 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					02A043B92B206EA50000E042 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					02A043CB2B206EA60000E042 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 02A043B92B206EA50000E042;
+					};
+					02A043D52B206EA60000E042 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 02A043B92B206EA50000E042;
+					};
+				};
+			};
+			buildConfigurationList = 02A043B52B206EA50000E042 /* Build configuration list for PBXProject "DadHub" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02A043B12B206EA50000E042;
+			productRefGroup = 02A043BB2B206EA50000E042 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02A043B92B206EA50000E042 /* DadHub */,
+				02A043CB2B206EA60000E042 /* DadHubTests */,
+				02A043D52B206EA60000E042 /* DadHubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02A043B82B206EA50000E042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A043C72B206EA60000E042 /* Preview Assets.xcassets in Resources */,
+				02A043C42B206EA60000E042 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02A043CA2B206EA60000E042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02A043D42B206EA60000E042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02A043B62B206EA50000E042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A043C02B206EA50000E042 /* ContentView.swift in Sources */,
+				02A043EC2B20AFCB0000E042 /* HomeView.swift in Sources */,
+				02A043C22B206EA50000E042 /* Item.swift in Sources */,
+				02A043BE2B206EA50000E042 /* DadHubApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02A043C82B206EA60000E042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A043D12B206EA60000E042 /* DadHubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02A043D22B206EA60000E042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A043DD2B206EA60000E042 /* DadHubUITestsLaunchTests.swift in Sources */,
+				02A043DB2B206EA60000E042 /* DadHubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02A043CE2B206EA60000E042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02A043B92B206EA50000E042 /* DadHub */;
+			targetProxy = 02A043CD2B206EA60000E042 /* PBXContainerItemProxy */;
+		};
+		02A043D82B206EA60000E042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02A043B92B206EA50000E042 /* DadHub */;
+			targetProxy = 02A043D72B206EA60000E042 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02A043DE2B206EA60000E042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+			};
+			name = Debug;
+		};
+		02A043DF2B206EA60000E042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02A043E12B206EA60000E042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DadHub/Preview Content\"";
+				DEVELOPMENT_TEAM = F6TGAHAQ5H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testapp.DadHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02A043E22B206EA60000E042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DadHub/Preview Content\"";
+				DEVELOPMENT_TEAM = F6TGAHAQ5H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testapp.DadHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02A043E42B206EA60000E042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testapp.DadHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DadHub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DadHub";
+			};
+			name = Debug;
+		};
+		02A043E52B206EA60000E042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testapp.DadHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DadHub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DadHub";
+			};
+			name = Release;
+		};
+		02A043E72B206EA60000E042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testapp.DadHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DadHub;
+			};
+			name = Debug;
+		};
+		02A043E82B206EA60000E042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testapp.DadHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DadHub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02A043B52B206EA50000E042 /* Build configuration list for PBXProject "DadHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02A043DE2B206EA60000E042 /* Debug */,
+				02A043DF2B206EA60000E042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02A043E02B206EA60000E042 /* Build configuration list for PBXNativeTarget "DadHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02A043E12B206EA60000E042 /* Debug */,
+				02A043E22B206EA60000E042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02A043E32B206EA60000E042 /* Build configuration list for PBXNativeTarget "DadHubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02A043E42B206EA60000E042 /* Debug */,
+				02A043E52B206EA60000E042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02A043E62B206EA60000E042 /* Build configuration list for PBXNativeTarget "DadHubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02A043E72B206EA60000E042 /* Debug */,
+				02A043E82B206EA60000E042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		02A043EE2B20B3590000E042 /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Networking;
+		};
+		02A043F12B20CB160000E042 /* Jokes */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Jokes;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 02A043B22B206EA50000E042 /* Project object */;
+}
